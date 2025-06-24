@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <link rel="stylesheet" href="/src/output.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css" />
   </head>
   <body>
-    <header class="bg-blue-950 w-full">
+    <header class="bg-[#043B4D] w-full">
       <nav
         class="max-w-[1200px] m-auto flex items-center justify-between py-[20px]"
       >
         <img src="/img/logo.png" alt="" />
         <ul
-          class="flex items-center gap-20 text-gray-600 font-semibold text-[18px]"
+          class="hidden lg:flex lg:items-center lg:gap-20 lg:text-gray-600 lg:font-semibold lg:text-[18px]"
         >
           <a href="#" class="hover:text-indigo-400 rounded-[15px]"
             ><li>Home</li></a
@@ -24,13 +25,64 @@
           <a href="#" class="hover:text-indigo-400"><li>Blog</li></a>
         </ul>
         <button
-          class="bg-[#145E76] hover:bg-indigo-700 text-white px-6 py-3 rounded-[25px] transition duration-300"
+          class="hidden lg:block bg-[#145E76] hover:bg-indigo-700 text-white px-6 py-3 rounded-[25px] transition duration-300"
         >
           Contact
         </button>
-        <i class=" fa-solid fa-bars"></i>
+        <img class="lg:hidden" src="/img/bar.png" alt="" />
       </nav>
-      
+      <section
+        class="max-w-[1200px] relative right-0 m-auto gap-10 lg:my-10 flex flex-col items-start lg:flex lg:flex-row lg:items-center"
+      >
+        <aside>
+          <img
+            class="block lg:hidden w-[600px] h-[400px]"
+            src="/img/jasonholder.png"
+            alt=""
+          />
+          <span
+            class="mt-5 hover:bg-indigo-700 bg-[#094556] text-[24px] p-2 text-white rounded-[30px]"
+            >Hey, I’m Musa</span
+          >
+          <h1 class="text-white font-bold text-[60px] w-[537px] leading-normal">
+            Building Digital Products, Brands & Experience.
+          </h1>
+          <p class="w-[511px] text-[18px] text-[#849499]">
+            A Product Design and Visual Designer in SF I”m Specialize in UI/UX,
+            Responsive web design, and visual Development.
+          </p>
+          <div class="flex items-center mt-5 gap-5">
+            <button
+              class="bg-[#FFA63A] hover:bg-indigo-700 text-white px-6 py-3 rounded-[25px] transition duration-300"
+            >
+              Hire Me
+            </button>
+            <a href="#" class="text-white hover:text-gray-500">My Work</a>
+          </div>
+         
+        </aside>
+        <img
+          class="hidden lg:block w-[818px] h-[655px]"
+          src="/img/jasonholder.png"
+          alt=""
+        />
+         <div
+            class="absolute top-[100px] w-[200px] opacity-[80%] lg:right-[-240px] z-10 border-[3px] border-gray-500 rounded-[20px] lg:top-[200px] bg-[#265362]  lg:w-[300px] lg:h-[169px]"
+          >
+            <p class="text-[#FFFFFF] p-2 pl-2">
+              ‘’Musa has benn an outstanding contributor to our team’s UI
+              Designer needs highly recommened’’
+            </p>
+            <div class=" flex flex-col lg:flex lg:flex-row gap-5  items-center mt-5">
+              <img src="/img/devona 1.png" alt="" />
+              <div class="flex flex-col items-center">
+                <h6>Jason Holder</h6>
+                <p>UX Designer at Futura</p>
+              </div>
+            </div>
+          </div>
+      </section>
+       
     </header>
   </body>
 </html>
