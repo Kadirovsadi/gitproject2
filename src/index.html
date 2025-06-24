@@ -1,14 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <link rel="stylesheet" href="/src/output.css">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <header class="bg-blue-950 w-full">
+      <nav
+        class="max-w-[1200px] m-auto flex items-center justify-between py-[20px]"
+      >
+        <img src="/img/logo.png" alt="" />
+        <ul
+          class="flex items-center gap-20 text-gray-600 font-semibold text-[18px]"
+        >
+          <a href="#" class="hover:text-indigo-400 rounded-[15px]"
+            ><li>Home</li></a
+          >
+          <a href="#" class="hover:text-indigo-400"><li>About</li></a>
+          <a href="#" class="hover:text-indigo-400"><li>Service</li></a>
+          <a href="#" class="hover:text-indigo-400"><li>Portfolio</li></a>
+          <a href="#" class="hover:text-indigo-400"><li>Blog</li></a>
+        </ul>
+        <button
+          class="bg-[#145E76] hover:bg-indigo-700 text-white px-6 py-3 rounded-[25px] transition duration-300"
+        >
+          Contact
+        </button>
+        <i class=" fa-solid fa-bars"></i>
+      </nav>
+      
+    </header>
+  </body>
 </html>
